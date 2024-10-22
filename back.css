@@ -1,0 +1,15 @@
+.back-button {
+    display: inline-block; /* Make it block-level for padding */
+    padding: 10px 20px; /* Add padding for better appearance */
+    margin: 20px 0; /* Space around the button */
+    background-color: #5cb85c; /* Green background */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background change */
+    font-size: 1em; /* Font size */
+}
+
+.back-button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}

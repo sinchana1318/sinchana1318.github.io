@@ -1,0 +1,100 @@
+#about {
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    padding: 60px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* About Content Layout */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Profile Image Styling */
+.profile-img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 5px solid #74b9ff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 24px rgba(255, 255, 255, 0.6);
+}
+
+/* Text Styling */
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.about-text h3 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #f1c40f;
+}
+
+/* Education List Styling */
+.about-text ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.about-text li {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.about-text li:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+}

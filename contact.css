@@ -1,0 +1,49 @@
+.contact-section {
+    padding: 60px 20px;
+    background-color: #f0f4f8; /* Light background for contrast */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.contact-title {
+    color: #333;
+    font-size: 2.5em; /* Larger font for the title */
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column; /* Stacking items vertically */
+    align-items: center;
+    gap: 20px; /* Space between items */
+}
+
+.contact-item {
+    background-color: #fff; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    width: 300px; /* Fixed width for items */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation on hover */
+}
+
+.contact-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.contact-item h3 {
+    color: #5cb85c; /* Green for headings */
+    font-size: 1.5em; /* Smaller font for subheadings */
+    margin-bottom: 10px;
+}
+
+.contact-link {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Link color */
+    transition: color 0.3s; /* Smooth color change on hover */
+}
+
+.contact-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+}

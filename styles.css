@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image.png');
+    background-size: cover;
+   
+}
+nav{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+header {
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    padding: 2rem;
+}
+
+a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.project {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.button {
+    display: inline-block; /* Makes the link behave like a block element */
+    padding: 10px 20px; /* Adds padding inside the button */
+    font-size: 16px; /* Adjusts the font size */
+    color: white; /* Text color */
+    background-color: #007BFF; /* Background color */
+    text-align: center; /* Centers text */
+    text-decoration: none; /* Removes underline from the link */
+    border-radius: 5px; /* Rounds the corners */
+    transition: background-color 0.3s; /* Adds a transition effect */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Changes color on hover */
+}

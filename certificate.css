@@ -1,0 +1,64 @@
+/* General Certifications Section Styling */
+#certifications {
+    background-color: #ecf0f1;
+    padding: 60px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#certifications h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #e74c3c;
+    display: inline-block;
+    padding-bottom: 5px;
+    color: #2c3e50;
+}
+
+/* Certifications Grid Layout */
+.certifications-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Individual Certification Card Styling */
+.cert-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.cert-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.cert-card i {
+    font-size: 3rem;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.cert-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+.cert-card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .certifications-container {
+        grid-template-columns: 1fr;
+    }
+}
